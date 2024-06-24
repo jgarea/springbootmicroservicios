@@ -10,6 +10,7 @@
 	<modules> <!-- Nombre de los módulos-->
 		<module>eureka</module>
         <module>saludo</module>
+		<module>gateway</module>
 		
 	</modules>
 	<properties> <!-- Propiedades del proyecto-->
