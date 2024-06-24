@@ -1,0 +1,18 @@
+server:
+  port: 8098
+
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jgarea/springbootmicroservicios-config.git
+          clone-on-start: true
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8099/eureka/
