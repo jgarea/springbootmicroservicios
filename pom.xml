@@ -9,6 +9,7 @@
 	<description>Descripción</description>
 	<modules> <!-- Nombre de los módulos-->
 		<module>eureka</module>
+        <module>saludo</module>
 		
 	</modules>
 	<properties> <!-- Propiedades del proyecto-->
