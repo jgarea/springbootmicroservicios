@@ -1,16 +1,18 @@
 
-ˆ	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Þï”Å8òÒÑ§…2J$6a89f582-e045-4449-8eb9-1fb0ab640f7e
-‡	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(•Òøe8òÒÑ§…2J$dc35d6a5-d97a-42f5-bbaf-5194d495d015
+ˆ	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Þï”Å8Ñ¿³¯…2J$875c1008-c83c-43d4-9107-82801dfe6725
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ôÒÑ§…2J$59fb45c9-c23a-4827-977b-5a5d93aa371c
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8Ó¿³¯…2J$57caa723-5847-496f-8472-a50ae63cbdaf
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ôÒÑ§…2J$f490112e-d151-457e-8279-9eca5b520927
-~	java:S125"<This block of commented-out lines of code should be removed.(Ûªë¬8öÒÑ§…2J$a9b38dde-c3de-433d-8e9b-870850c56304
-r	java:S106+"+Replace this use of System.out by a logger.(¿¨‡­ýÿÿÿÿ8úÒÑ§…2J$52229a7b-cb36-4c50-abf2-d0d6e29ad125
-ƒ	java:S125*"<This block of commented-out lines of code should be removed.(º®Å’üÿÿÿÿ8úÒÑ§…2J$6f9a7822-2c8a-44a5-b9ce-2ab486aa0bd6
-L	java:S106/"+Replace this use of System.out by a logger.(¾žÞºÿÿÿÿÿ8üÕ¨¨…2
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8Ó¿³¯…2J$6b92948b-20f5-4f33-a27f-4a7981496619
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8Ó¿³¯…2J$e3ff8e91-17d5-4c64-a47b-85facc443254
+•
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¦°–É8•÷Â¯…2J$709d90d1-c516-4e8e-8ee9-ced8e855f053
+ƒ	java:S125-"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8š÷Â¯…2J$58b3a7a0-58fc-40ec-87b6-de8e48f8eea3
+ƒ	java:S125>"<This block of commented-out lines of code should be removed.(ÏÎ¬øÿÿÿÿ8¦ÿ‚°…2J$f25bf1eb-de7a-408d-b100-ef07d2368971
+l	java:S106B"+Replace this use of System.out by a logger.(É€Ë8š÷Â¯…2J$f84fbc06-a50f-4821-b34a-417d48c691b1
+ƒ	java:S125C"<This block of commented-out lines of code should be removed.(ÏÎ¬øÿÿÿÿ8¿ö‰°…2J$5f1a14f3-8771-436a-b787-3e11059bc6df
+m	java:S106F"+Replace this use of System.out by a logger.(²çÁ³8›÷Â¯…2J$4b8d7101-0eb1-497f-b605-ee4bbe2c00bc
+ƒ	java:S125G"<This block of commented-out lines of code should be removed.(ÏÎ¬øÿÿÿÿ8þžŠ°…2J$feac93d1-4845-40a1-827d-feda75571143
 Š
-java:S20947"BRemove this empty class, write its code or make it an "interface".(¦Á¦¼ýÿÿÿÿ8ûÒÑ§…2J$a869ecb5-3060-4803-b0ff-7495e10bba02
-
-java:S1128
-"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Þûÿÿÿÿ8Ñ˜Þ§…2J$bf02eea6-8684-49a5-b8dd-119a0db02498
+java:S2094T"BRemove this empty class, write its code or make it an "interface".(¦Á¦¼ýÿÿÿÿ8œ÷Â¯…2J$afd857f3-e1d3-44e3-af66-c73d60c44847

@@ -1,7 +1,11 @@
 
 q
-java:S18741".Remove this use of "parser"; it is deprecated.(¹Ñº¹8ÛÎó¢…2J$c602db1a-7a3d-4aa1-a367-a14407068b29
+java:S18741".Remove this use of "parser"; it is deprecated.(¹Ñº¹8ÛÎó¢…2J$b6b70cff-c8ee-4fb4-b047-38b765d46291
 x
-java:S18742"5Remove this use of "setSigningKey"; it is deprecated.(©Òß8ÜÎó¢…2J$656964b0-1603-40d7-8e0d-0f958ce80d28
+java:S18742"5Remove this use of "setSigningKey"; it is deprecated.(©Òß8ÜÎó¢…2J$a187e72f-a5c3-453a-a910-adc89c509238
+€
+java:S1854]"8Remove this useless assignment to local variable "data".(Á¼–¶ùÿÿÿÿ8¦°æ®…2J$b65d7951-bb32-429c-82f4-21dc10866e49
+q
+java:S1481]")Remove this unused "data" local variable.(Á¼–¶ùÿÿÿÿ8§°æ®…2J$2228317e-b78a-4945-b028-58c0b525cf87
 l
-java:S1128")Remove this unused import 'lombok.Value'.(ß­ÅŸ8ÄÊ¨…2J$8dd5a95d-e7e4-4dc0-a29b-38dadda5b257
+java:S1128")Remove this unused import 'lombok.Value'.(ß­ÅŸ8ÄÊ¨…2J$a798618a-f7b7-4c04-a5e5-98e2c68e6686

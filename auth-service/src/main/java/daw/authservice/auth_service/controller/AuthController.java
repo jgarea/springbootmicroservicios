@@ -61,7 +61,7 @@ public class AuthController {
 
     @GetMapping("/validateToken")
     public ResponseEntity<Void> validateToken(@RequestParam String token) {
-        if (jwtUtil.validateToken(token)) {
+        if (jwtUtil.isTokenValid(token)) {
             return ResponseEntity.ok().build();
         } else {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();

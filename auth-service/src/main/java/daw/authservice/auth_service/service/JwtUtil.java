@@ -70,6 +70,17 @@ public class JwtUtil {
         }
     }
 
+    public boolean isTokenValid(final String token) {
+        try {
+            Jwts.parserBuilder().setSigningKey(getkey()).build().parseClaimsJws(token);
+        } catch (Exception e) {
+            return false;
+        }
+        return true;
+    }
+
+
+
     public boolean isTokenValid(String token, UserDetails userDetails) {
         final String username=getUserNameFromToken(token);
         return (username.equals(userDetails.getUsername())&& !isTokenExpired(token));
@@ -79,6 +90,7 @@ public class JwtUtil {
         return getClaim(token,Claims::getExpiration);
     }
     private boolean isTokenExpired(String token){
+        Date data= getExpiration(token);
         return getExpiration(token).before(new Date());
     }
 }

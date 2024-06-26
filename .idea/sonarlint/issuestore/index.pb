@@ -5,8 +5,6 @@ w
 Gconfig-server/src/main/java/daw/jgarea/config_server/ConfigService.java,8\7\87d5d51c8626a15c8e866183f054ccc377f03e5e
 ?
 gateway/pom.xml,4\b\4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3
-t
-Dgateway/src/main/java/daw/apigateway/gateway/GatewayApplication.java,2\7\27d378d2d349ca0c97dd65ab51c255ce99c52257
 D
 auth-service/pom.xml,7\f\7f617cadbbc161fc020296c3a971388d61795426
 ƒ
@@ -35,10 +33,6 @@ q
 Agateway/src/main/java/daw/gateway/gateway/GatewayApplication.java,2\b\2b26be89a681f8756c638a60a34ce5810c1fa6ea
 m
 =saludo/src/main/java/daw/saludo/saludo/SaludoApplication.java,8\f\8fc4fe4a923b17aa40df36f411b1666978397a37
-v
-Fgateway/src/main/java/daw/gateway/gateway/JwtAuthenticationFilter.java,e\a\ead0662eec2f5ab35242410958cd8a0bf434388f
-}
-Mgateway/src/main/java/daw/gateway/gateway/filter/JwtAuthenticationFilter.java,7\1\71384b2b42ce71a75dcf8e7daf9525563aeb81ca
 o
 ?gateway/src/main/java/daw/gateway/gateway/config/AppConfig.java,9\6\96164c47e20e257311460f518e554e66eb50e2dc
 z
@@ -47,3 +41,5 @@ t
 Dgateway/src/main/java/daw/gateway/gateway/filter/RouteValidator.java,3\0\30a16fb0fd7cea1a191c55c754fbc98ea1b708d6
 k
 ;gateway/src/main/java/daw/gateway/gateway/util/JwtUtil.java,6\0\60bf41f0f081aa7d8bfdd26a9be97f6194d88ad8
+l
+<saludo/src/main/java/daw/saludo/saludo/SaludoController.java,2\4\244ab40fd6d3e29fb3adc01c1a97fe04391666b8
