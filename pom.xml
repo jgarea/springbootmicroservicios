@@ -12,6 +12,7 @@
         <module>saludo</module>
 		<module>gateway</module>
 		<module>config-server</module>
+		<module>auth-service</module>
 		
 	</modules>
 	<properties> <!-- Propiedades del proyecto-->

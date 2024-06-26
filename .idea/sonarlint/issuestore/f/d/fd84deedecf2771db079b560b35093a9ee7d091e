@@ -1,0 +1,16 @@
+
+ˆ	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Şï”Å8òÒÑ§…2J$6a89f582-e045-4449-8eb9-1fb0ab640f7e
+‡	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(•Òøe8òÒÑ§…2J$dc35d6a5-d97a-42f5-bbaf-5194d495d015
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ôÒÑ§…2J$59fb45c9-c23a-4827-977b-5a5d93aa371c
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ôÒÑ§…2J$f490112e-d151-457e-8279-9eca5b520927
+~	java:S125"<This block of commented-out lines of code should be removed.(Ûªë¬8öÒÑ§…2J$a9b38dde-c3de-433d-8e9b-870850c56304
+r	java:S106+"+Replace this use of System.out by a logger.(¿¨‡­ıÿÿÿÿ8úÒÑ§…2J$52229a7b-cb36-4c50-abf2-d0d6e29ad125
+ƒ	java:S125*"<This block of commented-out lines of code should be removed.(º®Å’üÿÿÿÿ8úÒÑ§…2J$6f9a7822-2c8a-44a5-b9ce-2ab486aa0bd6
+L	java:S106/"+Replace this use of System.out by a logger.(¾Şºÿÿÿÿÿ8üÕ¨¨…2
+Š
+java:S20947"BRemove this empty class, write its code or make it an "interface".(¦Á¦¼ıÿÿÿÿ8ûÒÑ§…2J$a869ecb5-3060-4803-b0ff-7495e10bba02
+
+java:S1128
+"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Şûÿÿÿÿ8Ñ˜Ş§…2J$bf02eea6-8684-49a5-b8dd-119a0db02498

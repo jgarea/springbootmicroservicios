@@ -1,10 +1,10 @@
 
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8æŞç¥…2J$35f77e17-8cc1-42ad-b79a-b4c31c8b646a
-~	java:S125&"<This block of commented-out lines of code should be removed.(ë±×¡8éŞç¥…2J$091ea966-7f18-49cb-9645-366559f5da58
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8æŞç¥…2J$728e5e70-d940-4c73-b71e-67e2b9b9936a
+~	java:S125&"<This block of commented-out lines of code should be removed.(ë±×¡8éŞç¥…2J$78c0429f-a408-425f-aeb2-b29db7822598
 |
-java:S1874+"9Remove this use of "authorizeRequests"; it is deprecated.(‚Á¾Ç8òŞç¥…2J$93df1c0a-9eee-44df-a4fb-548a90db4557
-˜
-java:S1128"vRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'.(Æ­¹¬øÿÿÿÿ8ñ£è¥…2
-z
-java:S1128"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.(¶…¥à8ñ£è¥…2
+java:S1874+"9Remove this use of "authorizeRequests"; it is deprecated.(‚Á¾Ç8òŞç¥…2J$ef8fe480-a8f5-40d8-9fdf-6b606b6789b2
+¾
+java:S1128"vRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'.(Æ­¹¬øÿÿÿÿ8ñ£è¥…2J$06a8f53b-12ce-43d9-9e0f-8e0192366343
+ 
+java:S1128"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.(¶…¥à8ñ£è¥…2J$d45ef9c2-17cf-40ae-a53b-36fa12f44dcc

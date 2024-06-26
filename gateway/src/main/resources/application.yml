@@ -1,12 +1,22 @@
 server:
   port: 8080
-
 spring:
   application:
     name: gateway
   cloud:
     gateway:
-      discovery:
-        locator:
-          enabled: true
-  
+      routes:
+        - id: saludo
+          uri: lb://saludo
+          predicates:
+            - Path=/saludo/**
+          filters:
+            - AuthenticationFilter
+        - id: auth
+          uri: lb://auth-service
+          predicates:
+            - Path=/auth/**
+
+#      discovery:
+#        locator:
+#          enabled: true
