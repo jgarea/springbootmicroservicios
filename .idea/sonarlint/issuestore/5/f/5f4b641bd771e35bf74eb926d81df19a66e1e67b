@@ -1,0 +1,10 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8æŞç¥…2J$35f77e17-8cc1-42ad-b79a-b4c31c8b646a
+~	java:S125&"<This block of commented-out lines of code should be removed.(ë±×¡8éŞç¥…2J$091ea966-7f18-49cb-9645-366559f5da58
+|
+java:S1874+"9Remove this use of "authorizeRequests"; it is deprecated.(‚Á¾Ç8òŞç¥…2J$93df1c0a-9eee-44df-a4fb-548a90db4557
+˜
+java:S1128"vRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'.(Æ­¹¬øÿÿÿÿ8ñ£è¥…2
+z
+java:S1128"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.(¶…¥à8ñ£è¥…2
