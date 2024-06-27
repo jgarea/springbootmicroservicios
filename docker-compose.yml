@@ -1,0 +1,38 @@
+services:
+  postgresdb:
+    image: postgres:latest
+    container_name: postgresdb
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: springbootmicroservicios
+    ports:
+      - "5433:5433"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    networks:
+      - microservices-network
+
+  eureka:
+    build: ./eureka
+    container_name: eureka
+    ports:
+      - "8099:8099"
+    networks:
+      - microservices-network
+
+  config-server:
+    build: ./config-server
+    container_name: config-server
+    ports:
+      - "8098:8098"
+    depends_on:
+      - eureka
+    links:
+      - eureka
+    networks:
+      - microservices-network
+
+networks:
+  microservices-network:
+    driver: bridge
