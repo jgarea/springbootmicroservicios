@@ -73,18 +73,35 @@ services:
       - microservices-network
     restart: always
 
-  pgadmin:
-    image: dpage/pgadmin4
-    container_name: pgadmin
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@admin.com
-      PGADMIN_DEFAULT_PASSWORD: admin
+  saludo:
+    build: ./saludo
+    container_name: saludo
     ports:
-      - "8081:80"
+      - "8701:8701"
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka:8099/eureka
+      SPRING_CLOUD_CONFIG_URI: http://config-server:8098
+    expose:
+      - 8701
     depends_on:
-      - postgresdb
+      - eureka
+      - config-server
     networks:
       - microservices-network
+    restart: always
+
+  # pgadmin:
+  #   image: dpage/pgadmin4
+  #   container_name: pgadmin
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: admin@admin.com
+  #     PGADMIN_DEFAULT_PASSWORD: admin
+  #   ports:
+  #     - "8081:80"
+  #   depends_on:
+  #     - postgresdb
+  #   networks:
+  #     - microservices-network
 
 
 networks:
