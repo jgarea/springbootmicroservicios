@@ -1,0 +1,28 @@
+# spring:
+#   datasource:
+#     username: postgres
+#     url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/springbootmicroservicios}
+#     password: '1234'
+#   jpa:
+#     generate-ddl: 'true'
+#     properties:
+#       hibernate:
+#         dialect: org.hibernate.dialect.PostgreSQLDialect
+#     show-sql: 'true'
+#     hibernate:
+#       ddl-auto: update
+#   application:
+#     name: auth-service
+#   sql:
+#     init:
+#       platform: postgres
+# server:
+#   port: '8085'
+# eureka:
+#   client:
+#     register-with-eureka: true
+#     fetch-registry: true
+#     service-url:
+#       defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:8099/eureka/}
+# jwt:
+#   secret: 5427556d5575282f62482b78452358762d45263e294b5a466e325a753a476235

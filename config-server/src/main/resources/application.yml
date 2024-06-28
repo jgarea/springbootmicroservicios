@@ -9,10 +9,11 @@ spring:
       server:
         git:
           uri: https://github.com/jgarea/springbootmicroservicios-config.git
+          force-pull: true
           clone-on-start: true
 eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8099/eureka/
+      defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:8099/eureka/}

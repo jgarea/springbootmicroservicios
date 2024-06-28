@@ -25,8 +25,14 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
     @Autowired
     private JwtUtil jwtUtil;
 
+    private final String authValidationUrl;
+
     public AuthenticationFilter() {
         super(Config.class);
+
+        // Set the authValidationUrl with the environment variable or default to localhost
+        String envUrl = System.getenv("AUTH_VALIDATION_URL");
+        this.authValidationUrl = (envUrl != null) ? envUrl : "http://localhost:8085/auth/validateToken";
     }
 
     @Override
@@ -57,7 +63,7 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
 //                }
                 try {
                     // REST call to AUTH service
-                    ResponseEntity<String> response = template.getForEntity("http://localhost:8085/auth/validateToken?token=" + authHeader, String.class);
+                    ResponseEntity<String> response = template.getForEntity(authValidationUrl+"?token=" + authHeader, String.class);
                     if (!response.getStatusCode().is2xxSuccessful()) {
                         //throw new RuntimeException("Unauthorized access to application");
                         return handleUnauthorized(exchange);
