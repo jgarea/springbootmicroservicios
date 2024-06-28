@@ -1,5 +1,8 @@
 spring:
+  application:
+    name: saludo
   cloud:
     config:
+      name: saludo
       enabled: true
-      uri: http://localhost:8098  # URL del Config Server
+      uri: ${SPRING_CLOUD_CONFIG_URI:http://localhost:8098}  # URL del Config Server
