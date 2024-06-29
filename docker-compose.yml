@@ -53,7 +53,7 @@ services:
       - config-server
     networks:
       - microservices-network
-    restart: always
+#    restart: always
 
   auth-service:
     build: ./auth-service
@@ -71,7 +71,7 @@ services:
       - config-server
     networks:
       - microservices-network
-    restart: always
+#    restart: always
 
   saludo:
     build: ./saludo
@@ -88,7 +88,7 @@ services:
       - config-server
     networks:
       - microservices-network
-    restart: always
+#    restart: always
 
   # pgadmin:
   #   image: dpage/pgadmin4
